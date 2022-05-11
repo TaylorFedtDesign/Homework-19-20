@@ -1,0 +1,110 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.hero {
+  min-height: 60vh;
+}
+.hero h1 {
+  color: #291E02;
+  font-size: 10vh;
+  position: relative;
+  left: -60px;
+}
+.hero div.row {
+  padding: 50px;
+  min-height: 60vh;
+}
+
+.drop-shadow::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  top: 69px;
+  left: 0px;
+  z-index: 1;
+  background-color: #041523;
+  opacity: 0.4;
+}
+
+.txt-yellow-100 {
+  color: #FBB60D;
+}
+.txt-yellow-200 {
+  color: #EBAC0B;
+}
+.txt-yellow-300 {
+  color: #CC950A;
+}
+.txt-yellow-400 {
+  color: #291E02;
+}
+.txt-blue-100 {
+  color: #E5F4FF;
+}
+.txt-blue-200 {
+  color: #57B7FF;
+}
+.txt-blue-300 {
+  color: #0B4570;
+}
+.txt-blue-400 {
+  color: #06263D;
+}
+.txt-blue-500 {
+  color: #041523;
+}
+
+.bg-yellow-100 {
+  background-color: #FBB60D;
+}
+.bg-yellow-200 {
+  background-color: #EBAC0B;
+}
+.bg-yellow-300 {
+  background-color: #CC950A;
+}
+.bg-yellow-400 {
+  background-color: #291E02;
+}
+.bg-blue-100 {
+  background-color: #E5F4FF;
+}
+.bg-blue-200 {
+  background-color: #57B7FF;
+}
+.bg-blue-300 {
+  background-color: #0B4570;
+}
+.bg-blue-400 {
+  background-color: #06263D;
+}
+.bg-blue-500 {
+  background-color: #041523;
+}
+
+.fs-xxxl {
+  font-size: 65px;
+}
+.fs-xxl {
+  font-size: 59px;
+}
+.fs-xl {
+  font-size: 53px;
+}
+.fs-lg {
+  font-size: 47px;
+}
+.fs-md {
+  font-size: 41px;
+}
+.fs-sm {
+  font-size: 35px;
+}
